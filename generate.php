@@ -64,4 +64,4 @@ $renderer->setResource($resource);
 $code = $renderer->draw();
 $code->save($filePath);
 
-echo $filePath . " saved" . PHP_EOL;
+echo $filePath . " with code \"" . $renderer->getBarCode()->getText() . "\" has been saved." . PHP_EOL;
