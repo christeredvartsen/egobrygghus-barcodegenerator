@@ -1,13 +1,12 @@
 {
     "name": "egobrygghus/barcodegenerator",
     "homepage": "http://www.ego-brygghus.com/",
-    "authors": [
-    {
+    "authors": [{
         "name": "Christer Edvartsen",
         "email": "christer@ego-brygghus.no",
         "role": "Developer / Head brewer",
         "homepage": "https://github.com/christeredvartsen/"
-    }
+    }],
     "license": "MIT",
     "require": {
         "zendframework/zendframework": "~2.3",
